@@ -75,8 +75,24 @@ div[data-baseweb="input"] input {
     border: none;
     font-size: 22px !important;
     font-weight: bold;
-    color: white;
-    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background: linear-gradient(to right, #00c6ff, #0072ff) !important;
+    color: white !important;
+    box-shadow: 0px 6px 20px rgba(0,114,255,0.4);
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.stButton > button:hover {
+    background: linear-gradient(to right, #0093E9, #005bea) !important;
+    color: white !important;
+    transform: scale(1.02);
+}
+
+/* Button Text */
+.stButton button p {
+    color: white !important;
+    font-size: 22px !important;
+    font-weight: bold;
 }
 
 /* Metric Cards */
